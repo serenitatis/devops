@@ -1,0 +1,3 @@
+#!/bin/sh
+cp /opt/pki/setup-pki.sh /usr/local/bin/pki-init
+chmod +x /usr/local/bin/pki-init

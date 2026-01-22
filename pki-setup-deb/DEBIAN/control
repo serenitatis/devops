@@ -1,0 +1,8 @@
+Package: pki-setup
+Version: 1.0
+Section: admin
+Priority: optional
+Architecture: all
+Depends: easy-rsa
+Maintainer: admin@example.com
+Description: Automated PKI setup with Easy-RSA
