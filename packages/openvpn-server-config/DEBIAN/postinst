@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+if [ "$1" = "configure" ]; then
+  systemctl enable --now openvpn-server@server 2>/dev/null || true
+fi

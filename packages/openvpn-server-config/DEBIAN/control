@@ -1,0 +1,9 @@
+Package: openvpn-server-config
+Version: 1.0
+Section: net
+Priority: optional
+Architecture: all
+Depends: openvpn, ufw
+Maintainer: Your Name <admin@example.com>
+Description: OpenVPN server configuration for corporate PKI. This package deploys the server config
+.

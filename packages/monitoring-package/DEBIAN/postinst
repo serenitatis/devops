@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+# Запуск скрипта после установки
+if [ "$1" = "configure" ]; then
+    /usr/local/bin/deploy_monitoring.sh
+fi
+
+exit 0

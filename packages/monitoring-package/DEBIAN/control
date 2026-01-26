@@ -1,0 +1,8 @@
+Package: monitoring-deploy
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Admin <admin@example.com>
+Description: Automatic deployment of Prometheus exporters for server and OpenVPN
+Depends: curl, wget, systemd
